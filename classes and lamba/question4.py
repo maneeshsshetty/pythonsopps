@@ -1,4 +1,3 @@
-# Class to find two numbers that sum to target
 class TwoSum:
     def find_indices(self, nums, target):
         for i in range(len(nums)):
@@ -6,7 +5,7 @@ class TwoSum:
                 if nums[i] + nums[j] == target:
                     return i+1, j+1
 
-# Testing
+
 t = TwoSum()
 target = 50
 nums = [90, 20, 10, 40, 50, 60, 70]

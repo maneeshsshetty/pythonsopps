@@ -9,5 +9,4 @@ def check_string(s):
     else:
         return "Invalid String"
 
-# Using lambda just for the check part inside if preferred, but function is cleaner for 'human' code
 print(check_string("PAceWIsd0m"))
